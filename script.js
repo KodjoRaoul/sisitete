@@ -56,9 +56,9 @@ var buildings = L.geoJSON(null, {
 // Définition d'une icône personnalisée pour les arbres avec votre image PNG
 var treeIcon = L.icon({
   iconUrl: "data/tree.png",      // Assurez-vous que votre image s'appelle bien tree.png dans le dossier data/
-  iconSize: [24, 24],          // Taille de l'icône sur la carte (en pixels)
-  iconAnchor: [12, 12],        // Centre l'icône précisément sur les coordonnées GPS du point
-  popupAnchor: [0, -12]
+  iconSize: [12, 12],          // Taille de l'icône sur la carte (en pixels)
+  iconAnchor: [6, 6],        // Centre l'icône précisément sur les coordonnées GPS du point
+  popupAnchor: [0, -6]
 });
 
 var trees = L.geoJSON(null, {
