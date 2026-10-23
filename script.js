@@ -133,7 +133,7 @@ legend.onAdd = function () {
     '<i style="background:#f97316;border:1px solid #9a3412"></i> Bâtiments<br>' +
     '<i style="background:#2D3942;height:4px;margin-top:6px"></i> Route principale<br>' +
     '<i style="background:#506475;height:3px;margin-top:6px"></i> Route secondaire<br>' +
-    '<i style="background:#22c55e;border-radius:50%;border:1px solid #14532d"></i> Arbres';
+    '<img src="data/tree.png" style="width:16px;height:16px;vertical-align:middle;margin-right:4px;"> Arbres';
   return div;
 };
 legend.addTo(map);
